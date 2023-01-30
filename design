@@ -1,0 +1,21 @@
+Title: CalorieCalculator
+
+Description:
+This web app takes input from user by typing his height, weight, and age.
+Additionally user fills in his residence location(city, state),
+thus app is able to scrape data of residence temperature and calculate ideal daily input of calories.
+
+Structure:
+
+    Class Calculator
+        weight
+        height
+        age
+        temperature
+        calculate()
+
+    Class Temperature
+        city
+        state
+        get()
+
