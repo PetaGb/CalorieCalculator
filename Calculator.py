@@ -18,4 +18,4 @@ class Calculator:
 
 temperature = float(Temperature(state="czech republic", city="brno").scrape())
 calculator = Calculator(weight=75, height=180, age=36, temperature=temperature)
-print(calculator.calculate())
+print(type(calculator.calculate()))
